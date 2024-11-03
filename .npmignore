@@ -1,0 +1,16 @@
+# 忽略目录
+.idea
+.vscode
+scripts/
+packages/
+public/
+node_modules/
+src/
+pnpm-lock.yaml
+ 
+# 忽略指定文件
+vite.config.ts
+*.json
+index.html
+.gitignore
+*.map
