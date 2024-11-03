@@ -1,8 +1,29 @@
 {
   "name": "dynamic-node-vue",
   "private": false,
-  "version": "0.0.1",
+  "version": "1.0.101",
+  "description": "dynamic load vue component with dom data",
+  "author": {
+    "name": "rainlotus97",
+    "email": "s0704127x@163.com"
+  },
+  "keywords": [
+    "vue",
+    "dynamic",
+    "layout",
+    "card",
+    "typescript"
+  ],
+  "license": "MIT",
   "type": "module",
+  "files": [
+    "lib/*.js",
+    "lib/*.d.ts",
+    "lib/*.css"
+  ],
+  "main": "lib/index.umi.js",
+  "module": "lib/index.em.js",
+  "types": "lib/index.d.ts",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc -b && vite build",
@@ -13,6 +34,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.1.4",
+    "rollup-plugin-visualizer": "^5.12.0",
     "typescript": "~5.6.2",
     "vite": "^5.4.10",
     "vite-plugin-dts": "^4.3.0",
