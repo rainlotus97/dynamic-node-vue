@@ -25,7 +25,7 @@ export enum LayoutType {
     // card类型
     COMPONENT = 'component',
     // layout类型
-    container = 'container',
+    CONTAINER = 'container',
 }
 
 // 动态组件参数

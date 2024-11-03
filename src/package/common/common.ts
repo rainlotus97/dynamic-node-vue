@@ -12,7 +12,7 @@ export interface NodeType {
 // 布局类型
 export enum LayoutType {
     COMPONENT = 'component',
-    container = 'container',
+    CONTAINER = 'container',
 }
 
 // 动态组件参数
