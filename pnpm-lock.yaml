@@ -1,6 +1,9 @@
 lockfileVersion: '6.0'
 
 dependencies:
+  dynamic-node-vue:
+    specifier: ^1.0.107
+    version: 1.0.107(typescript@5.6.2)
   vue:
     specifier: ^3.5.12
     version: 3.5.12(typescript@5.6.2)
@@ -800,6 +803,14 @@ packages:
     resolution: {integrity: sha512-Ds09qNh8yw3khSjiJjiUInaGX9xlqZDY7JVryGxdxV7NPeuqQfplOpQ66yJFZut3jLa5zOwkXw1g9EI2uKh4Og==}
     engines: {node: '>=8'}
     dev: true
+
+  /dynamic-node-vue@1.0.107(typescript@5.6.2):
+    resolution: {integrity: sha512-0OdrPPMuMSPg/HnrgMY1+a7DfyI073vAVk00amte0eBoWRAuOYdakNkCjADYs3I1gocX9ZbI7Pv9X/e+FOYQaQ==}
+    dependencies:
+      vue: 3.5.12(typescript@5.6.2)
+    transitivePeerDependencies:
+      - typescript
+    dev: false
 
   /emoji-regex@8.0.0:
     resolution: {integrity: sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==}

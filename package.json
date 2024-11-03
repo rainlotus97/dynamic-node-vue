@@ -1,7 +1,7 @@
 {
   "name": "dynamic-node-vue",
   "private": false,
-  "version": "1.0.101",
+  "version": "1.0.107",
   "description": "dynamic load vue component with dom data",
   "author": {
     "name": "rainlotus97",
@@ -17,13 +17,11 @@
   "license": "MIT",
   "type": "module",
   "files": [
-    "lib/*.js",
-    "lib/*.d.ts",
-    "lib/*.css"
+    "lib"
   ],
-  "main": "lib/index.umi.js",
-  "module": "lib/index.em.js",
-  "types": "lib/index.d.ts",
+  "main": "lib/index.umd.js",
+  "module": "lib/index.es.js",
+  "types": "lib/src/package/index.d.ts",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc -b && vite build",

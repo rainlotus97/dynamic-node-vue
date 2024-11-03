@@ -7,10 +7,10 @@ public/
 node_modules/
 src/
 pnpm-lock.yaml
+lib/mockJson.json
  
 # 忽略指定文件
 vite.config.ts
-*.json
 index.html
 .gitignore
 *.map

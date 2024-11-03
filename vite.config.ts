@@ -32,9 +32,10 @@ export default defineConfig({
         exports: 'named',
       },
     },
+    // 打包组件，注释则编译整个项目
     lib: {
       // 入口文件
-      entry: 'src/package/index.ts',
+      entry: './src/package/index.ts',
       // 插件文件名
       name: 'dynamic-node-vue',
       fileName: (format) => `index.${format}.js`

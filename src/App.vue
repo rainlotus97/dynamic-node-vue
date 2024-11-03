@@ -17,4 +17,6 @@ onMounted(async () => {
     <dynamic-node :data="layout" />
 </template>
 
-<style scoped></style>
+<style scoped>
+
+</style>

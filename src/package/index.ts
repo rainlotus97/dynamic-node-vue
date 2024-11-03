@@ -9,7 +9,7 @@ const coms = [DyanmicNode];
 
 export const DynamicNodeVue = (Vue: App<Element>) => {
     coms.forEach((com: any) => {
-        Vue.component(com.__file.split('/').pop().split('.')[0], com);
+        Vue.component(com.__name, com);
     })
     mainRegister();
 }
