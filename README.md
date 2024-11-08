@@ -59,7 +59,7 @@ pnpm run build
 
 最新的组件地址:[dynamic-node-vue](https://www.npmjs.com/package/dynamic-node-vue?activeTab=readme)
 
-
+ github地址:[dynamic-node-vue](https://github.com/rainlotus97/dynamic-node-vue)
 
 # 四、引用组件
 
