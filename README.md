@@ -69,6 +69,8 @@ npm i dynamic-node-vue
 
 // main.ts全局注册
 import { DynamicNodeVue } from 'dynamic-node-vue';
+// 引入样式文件
+import 'dynamic-node-vue/lib/index.css';
 const app = createApp(App);
 // 注册组件
 app.use(DynamicNodeVue);
