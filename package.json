@@ -1,7 +1,7 @@
 {
   "name": "dynamic-node-vue",
   "private": false,
-  "version": "1.0.109",
+  "version": "1.0.110git",
   "description": "dynamic load vue component with dom data",
   "author": {
     "name": "rainlotus97",

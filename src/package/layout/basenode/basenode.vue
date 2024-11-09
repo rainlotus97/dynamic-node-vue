@@ -14,8 +14,20 @@ import { NodeType, LayoutType } from '../../index';
 // 定义子组件类型
 defineProps<NodeType>();
 
-
-
 </script>
     
-<style lang="less"></style>
+<style scoped>
+.flhnode {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.flvnode {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+</style>

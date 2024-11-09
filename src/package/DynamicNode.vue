@@ -5,7 +5,7 @@
 </template>
   
 <script lang="ts" setup>
-import './css/node.css';
+// import './css/node.css';
 import { DynamicComponent } from './common/common';
 import { RegisterLayout } from './utils/registerLayout';
 // 定义子组件类型
